@@ -1,0 +1,108 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+#info {
+	position: fixed;
+    height: 600px;
+    width: 300px;
+	top: 10px;
+    margin-left: 2%;
+	width: 10%;
+    border: black 2px dotted;
+	text-align: left;
+	z-index: 100;
+	display:block;
+    background-color: gray;
+    opacity: 0.5;
+    color:blue;
+}
+
+.label {
+    color: blue;
+    font-family: sans-serif;
+    padding: 30px;
+    background: rgba( 0, 0, 0, .6 );
+}
+html, body, p{ 
+    opacity: 1;
+ 
+
+ font-size: 20px;
+ 
+    }
+
+  
+
+html,
+body
+{
+    
+    overflow: hidden;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+.point 
+{
+    position: absolute;
+    top : 00%;
+    left :0%;
+    height: 100px;
+    width: 100px;
+    transition: 1s;
+    transform: scale(0
+, 0);
+        background: #00000077;
+        border: 1px solid #ffffff77;
+        color: #ffffff;
+
+        font-family: Helvetica, Arial, sans-serif;
+        font-weight: 100;
+        font-size: 14px;
+        text-align: left;
+        border-radius: 4px;
+        overflow-y: scroll;
+        height: 90%;
+        width: 400px;
+        padding: 20px 20px;
+
+    
+
+}
+
+.point .text
+{
+    position: absolute;
+    top: 30px;
+    left: -120px;
+    width: 150px;
+    padding: 20px;
+    border-radius: 4px;
+    background: #00000077;
+    border: 1px solid #ffffff77;
+    
+    line-height: 1.3em;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+
+    
+    cursor: help;
+}
+ .visible
+{ 
+
+    transition: 1s;
+   
+    transform: scale(1
+, 1) !important;
+    opacity: 1;
+}
