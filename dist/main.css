@@ -1,0 +1,320 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'typo';
+    src:    url(assets/fonts/ba36753a869fda8f.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.loader {
+ position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(50%,0);
+    
+}
+.loading-bar
+{
+   
+    width: 100%;
+    height: 2px;
+    background: #ffffff;
+    transform: scaleX(0);
+
+    transition: transform 5s;
+}
+.label {
+    color: blue;
+    font-family: sans-serif;
+    padding: 30px;
+    background: rgba( 0, 0, 0, .6 );
+}
+html, body, p{ 
+  
+    font-family: 'Helvetica, Arial, sans-serif';
+    opacity: 1;
+    line-height: 0.5cm;
+    font-size: medium;
+    font-weight: light;
+ font-size: 20px;
+ 
+    }
+
+  
+
+html,
+body
+{
+    
+    overflow: hidden;
+}
+#logo
+{
+    margin-top: 20px;
+
+}
+#text
+{
+    text-align: justify;
+    
+
+}
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+.intro
+{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #00000077;
+    color: white;
+    
+    padding: 15px 30px;
+  
+    border-radius: 4px;
+    backdrop-filter: blur(5px);
+    width : 800px;
+    height: 550px;
+    border: 1px solid #ffffff77;
+
+}
+.invisible {
+    transition: 1s;
+   
+    transform: scale(0
+, 0) !important;
+}
+
+.point 
+{
+    position: absolute;
+    top : 2%;
+
+    left :1%;
+
+
+    transition: 1s;
+    transform: scale(0
+, 0);
+        background: #00000077;
+        border: 1px solid #ffffff77;
+        color: #ffffff;
+
+        backdrop-filter: blur(10px);
+
+        font-family: Helvetica, Arial, sans-serif;
+        font-weight: 100;
+        font-size: 14px;
+        text-align: left;
+        border-radius: 4px;
+        overflow-y: scroll;
+      
+        height: 85%;
+        width: 300px;
+        padding: 35px 35px;
+   
+
+    
+
+}
+
+.point_
+{
+    position: absolute;
+    top : 2%;
+
+    right:1%;
+
+
+  
+        background: #00000077;
+        border: 1px solid #ffffff77;
+        color: #ffffff;
+        filter: invert(0);
+        backdrop-filter: blur(10px);
+
+        font-family: Helvetica, Arial, sans-serif;
+        font-weight: 100;
+        font-size: 14px;
+        text-align: left;
+        border-radius: 4px;
+        overflow-y: scroll;
+   
+        width : 80px;
+        text-align: center;
+        padding: 15px 15px;
+
+    
+
+}
+.instagram {
+    position: absolute;
+    top : 190px;
+
+    right:1%;
+
+
+  
+        background: #00000077;
+        border: 1px solid #ffffff77;
+        color: #ffffff;
+    filter:brightness(0.8);
+        backdrop-filter: blur(10px);
+
+        font-family: Helvetica, Arial, sans-serif;
+        font-weight: 100;
+        font-size: 14px;
+        text-align: left;
+        border-radius: 4px;
+        overflow-y: scroll;
+   
+        width : 80px;
+        text-align: center;
+        filter: invert(0);
+        padding: 15px 15px;
+
+}
+.instagram:hover {
+    filter: invert(1);
+}
+.hey{
+    position: absolute;
+    bottom : 10px;
+
+    right:1%;
+
+
+  
+        background: #00000077;
+        border: 1px solid #ffffff77;
+        color: #ffffff;
+    filter:brightness(0.8);
+        backdrop-filter: blur(10px);
+
+        font-family: Helvetica, Arial, sans-serif;
+        font-weight: 100;
+        font-size: 14px;
+        text-align: left;
+        border-radius: 4px;
+        overflow-y: scroll;
+   
+        width : 110px;
+        text-align: center;
+       
+    
+
+}
+.hey:hover{
+    filter: invert(1);
+
+}
+.button {
+    border-radius: 4px;
+    margin: 5% 0%;
+    border: 1px solid #ffffff77;
+    filter: invert(0);
+    width: 400px;
+    left: 50%;
+    transform: translate(50%,0);
+    height: 50px;
+    background: #00000077;
+}
+.button:hover {
+    filter: invert(1);
+}
+.negatif {
+    filter: invert(1);
+}
+
+.pdf
+{
+    position: absolute;
+    top : 100px;
+
+    right:1%;
+
+
+  
+        background: #00000077;
+        border: 1px solid #ffffff77;
+        color: #ffffff;
+    filter:brightness(0.8);
+        backdrop-filter: blur(10px);
+
+        font-family: Helvetica, Arial, sans-serif;
+        font-weight: 100;
+        font-size: 14px;
+        text-align: left;
+        border-radius: 4px;
+        overflow-y: scroll;
+   
+        width : 80px;
+        text-align: center;
+        filter: invert(0);
+        padding: 15px 15px;
+
+    
+
+}
+small {
+
+}
+
+.pdf:hover{
+    filter: invert(1);
+}
+
+ .visible
+{ 
+
+    transition: 1s;
+   
+    transform: scale(1
+, 1) !important;
+    opacity: 1;
+}
+#textphone {
+    display: none;
+}
+@media (hover: none)
+{
+    .intro {
+        top: 49%;
+        width:80%;
+        overflow-y: auto;
+        height: 90%;
+        backdrop-filter: blur(20px);;
+       
+    }
+    .hey {
+       display: none;
+    }
+    .button {
+        width: 200px;
+    
+    }
+    #text {
+        display: none;
+    }
+    #textphone {
+        display: inline;
+    }
+}
+
+/*# sourceMappingURL=main.css.map*/
